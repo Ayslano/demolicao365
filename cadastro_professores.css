@@ -1,0 +1,113 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Cor de fundo */
+  }
+  
+  /* Estilos para o cabeçalho */
+  header {
+    background-color: #333; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto */
+    padding: 10px 0; /* Espaçamento interno */
+  }
+  
+  /* Estilos para a navegação */
+  nav ul {
+    list-style-type: none; /* Remover marcadores de lista */
+    padding: 0;
+    margin: 0;
+    background-color: #444; /* Cor de fundo */
+    text-align: center; /* Alinhamento do texto */
+  }
+  
+  nav ul li {
+    display: inline; /* Exibir em linha */
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white; /* Cor do texto */
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #666; /* Cor de fundo ao passar o mouse */
+  }
+  
+  /* Estilos para o formulário */
+  section {
+    background-color: #fff; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    margin: 20px auto; /* Margem automática */
+    max-width: 600px; /* Largura máxima */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+  
+  h2 {
+    text-align: center; /* Alinhamento do texto */
+    color: #411ce6; /* Cor do texto */
+    font-family: Trebuchert MS;
+    font-style: bolder;
+    font-size: 30px;
+    font-style: underline;
+  }
+  
+  .input-group {
+    margin-bottom: 20px; /* Espaçamento inferior */
+  }
+  
+  .input-group label {
+    display: block; /* Exibir em bloco */
+    margin-bottom: 5px; /* Espaçamento inferior */
+    color: #333; /* Cor do texto */
+  }
+  
+  .input-group input {
+    width: calc(100% - 10px); /* Largura do input */
+    padding: 8px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 5px; /* Bordas arredondadas */
+  }
+  
+  .input-group input:focus {
+    outline: none; /* Remover contorno ao focar */
+    border-color: #007bff; /* Cor da borda ao focar */
+  }
+  
+  .button-group {
+    text-align: center; /* Alinhamento do botão */
+  }
+  
+  button[type="submit"] {
+    width: 50%; /* Largura do botão */
+    padding: 10px; /* Espaçamento interno */
+    background-color: #007bff; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor ao passar o mouse */
+    transition: background-color 0.3s; /* Transição suave */
+    display: block; /* Exibir em bloco */
+    margin: 0 auto; /* Margem automática para centralizar */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+  }
+  
+  footer {
+    background-color: #333; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto */
+    padding: 10px 0; /* Espaçamento interno */
+  }
+  
+  footer p {
+    margin: 0; /* Remover margem */
+  }
+  

@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container {
+    position: relative; /* Isso é importante para posicionar a imagem dentro do container */
+    width: 300px; /* Defina a largura do container conforme necessário */
+    height: 300px; /* Defina a altura do container conforme necessário */
+    border: 1px solid black; /* Apenas para visualização */
+    background-color: #ffffffd7; /* Cor de fundo para o container do formulário */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona sombreamento ao container */
+    padding: 20px; /* Adiciona espaçamento interno ao container */
+    border-radius: 10px; /* Adiciona bordas arredondadas ao container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Ajusta a direção dos itens flexíveis para alinhar verticalmente */
+}
+
+
+form {
+    width: 100%; /* Define a largura do formulário */
+    display: flex;
+    flex-direction: column; /* Ajusta a direção dos itens flexíveis para alinhar verticalmente */
+    align-items: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: calc(100% - 22px); /* Ajusta a largura do campo de entrada para considerar o espaçamento */
+    padding: 10px;
+    margin: 10px 0; /* Aumenta o espaçamento entre os campos de entrada */
+    border: 1px solid #131212;
+    border-radius: 5px; /* Adiciona bordas arredondadas aos campos de entrada */
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 80px; /* Define a largura do botão */
+    background-color: rgb(255, 30, 0); /* Define a cor de fundo como transparente */
+    color: #fff; /* Define a cor do texto do botão */
+    padding: 10px;
+    border: none;
+    border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center; /* Centraliza o texto */
+}
+
+input[type="submit"]:hover {
+    background-color: #007bff; /* Muda a cor de fundo ao passar o mouse */
+}

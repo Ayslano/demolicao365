@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(242, 242, 242, 0.5); /* Fundo da imagem transparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-image: url('https://scontent.ffec12-1.fna.fbcdn.net/v/t39.30808-6/430726239_791523641820700_7193455563518570952_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=3635dc&_nc_ohc=uOMPO4BSmoEAX9WjUcP&_nc_ht=scontent.ffec12-1.fna&oh=00_AfApuhs0EDtfDqZazIN5aLTsogcMVdQOpt2G_Z_2I0uWIQ&oe=65EABBF1'); /* Substitua 'caminho/para/sua/imagem.jpg' pelo caminho correto para sua imagem */
+  background-size: cover;
+  background-repeat: no-repeat; /* Impede a repetição da imagem */
+  background-position: center center; /* Centraliza a imagem */
+  background-size: 50%; /* Reduz a imagem para metade do tamanho original */
+}
+
+  
+  .container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .container {
+    position: relative; /* Isso é importante para posicionar a imagem dentro do container */
+    width: 300px; /* Defina a largura do container conforme necessário */
+    height: 300px; /* Defina a altura do container conforme necessário */
+    border: 1px solid black; /* Apenas para visualização */
+    background-color: #ffffffd7; /* Cor de fundo para o container do formulário */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona sombreamento ao container */
+    padding: 20px; /* Adiciona espaçamento interno ao container */
+    border-radius: 10px; /* Adiciona bordas arredondadas ao container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Ajusta a direção dos itens flexíveis para alinhar verticalmente */
+}
+
+.image {
+    position: absolute; /* Isso posicionará a imagem em relação ao container */
+    top: 50%; /* Posiciona a imagem no meio vertical do container */
+    left: 50%; /* Posiciona a imagem no meio horizontal do container */
+    transform: translate(-50%, -50%); /* Move a imagem de volta em 50% do seu próprio tamanho, tanto na horizontal quanto na vertical */
+    max-width: 100%; /* Limita a largura máxima da imagem para que ela não ultrapasse o contêiner */
+    max-height: 100%; /* Limita a altura máxima da imagem para que ela não ultrapasse o contêiner */
+}
+  
+  h1 {
+    color: #007bff;
+  }
+  
+  p {
+    color: #333;
+    font-size: 18px;
+  }

@@ -1,0 +1,90 @@
+.sidebar {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, #066d8f, #0033cc); /* Gradiente azul */
+    height: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.sidebar a.menu {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #e9e2e2;
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Linhas de separação com transparência */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin-bottom: 10px; /* Espaçamento entre os itens */
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.sidebar a.menu:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Cor de fundo ao passar o mouse */
+}
+
+.sidebar .submenu {
+    display: none;
+}
+
+.sidebar .menu:hover .submenu {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+}
+
+.submenu li {
+    list-style-type: none;
+    
+}
+
+.submenu a {
+    padding: 10px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px; /* Bordas arredondadas para os itens do submenu */
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.submenu a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Cor de fundo ao passar o mouse */
+}
+
+.content {
+    margin-left: 200px; /* Ajuste para acomodar o menu lateral */
+    padding: 20px;
+}
+
+/*Estilo do Botão Sair*/
+
+#logoutButton {
+    padding: 10px 30px; /* Adiciona padding ao botão */
+    text-decoration: none; /* Remover o sublinhado padrão */
+    font-size: 20px;
+    font-weight: bold; /* Torna o texto em negrito */
+    color: #0a0a0a;
+    border: none;
+    background-color: #d9534f; /* Cor de fundo vermelha */
+    border-radius: 0; /* Remove as bordas arredondadas */
+    margin-top: auto; /* Coloca o botão no final do menu lateral */
+    margin-bottom: 20px; /* Adiciona um espaçamento entre o botão e os itens de menu */
+    width: 100%; /* Garante que o botão ocupe toda a largura */
+    box-sizing: border-box; /* Garante que o padding não altere a largura total */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+#logoutButton:hover {
+    text-decoration: underline; /* Adiciona o sublinhado quando o mouse está sobre o botão */
+}
+
+#logoutButton:hover {
+    text-decoration: underline; /* Adiciona o sublinhado quando o mouse está sobre o botão */
+}
+
