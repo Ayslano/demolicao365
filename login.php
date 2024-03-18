@@ -3,7 +3,8 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Verifica se ambos os campos de e-mail e senha foram preenchidos
     if (!empty($_POST['email']) && !empty($_POST['senha'])) {
-        // Supondo que você tenha um banco de dados configurado e uma tabela de usuários chamada 'usuarios'
+        
+    // Supondo que você tenha um banco de dados configurado e uma tabela de usuários chamada 'usuarios'
 
         $servername = "sql105.infinityfree.com"; // ou o endereço do seu servidor MySQL
         $username = "if0_36104329"; // Nome de usuário do MySQL
