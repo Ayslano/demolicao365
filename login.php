@@ -54,13 +54,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <?php
 
-// Conectando ao banco de dados MySQL
-
-$servername = "sql105.infinityfree.com"; // ou o endereço do seu servidor MySQL
-$username = "if0_36104329"; // Nome de usuário do MySQL
-$password = "XNHKF7e5ib"; // Senha do MySQL
-$dbname = "if0_36104329_users"; // Nome do banco de dados
-
 // Criando a conexão
 $conexao = new mysqli($servername, $username, $password, $dbname);
 
