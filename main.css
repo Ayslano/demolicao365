@@ -61,12 +61,12 @@
   }
   
   .login-box a:hover {
-    background: #03f40f;
+    background: #1f34ee;
     border-radius: 5px;
-    box-shadow: 0 0 5px #03f40f,
-                0 0 25px #03f40f,
-                0 0 50px #03f40f,
-                0 0 100px #03f40f;
+    box-shadow: 0 0 5px #0388f4,
+                0 0 25px #1f34ee,
+                0 0 50px #1f34ee,
+                0 0 100px #1f34ee;
   }
   
   .login-box a span {
@@ -79,7 +79,7 @@
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #03f40f);
+    background: linear-gradient(90deg, transparent, #1f34ee);
     animation: animate 2s linear infinite;
   }
   
